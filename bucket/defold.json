@@ -14,6 +14,10 @@
         }
     },
     "bin": "Defold/Defold.exe",
+    "shortcuts": [
+        "Defold/Defold.exe",
+        "Defold"
+    ],
     "checkver":{
         "url": "https://forum.defold.com/c/releasenotes",
         "regex": "Defold ([\\d.]+) has been released"
