@@ -15,11 +15,13 @@
         "url": "https://github.com/Si13n7/ImageToIcon/releases",
         "regex": "ImageToIcon [Build: ([\\d.]+)]"
     },
-    "post_install": [
-        "if (Test-Path \"$dir\\ImageToIcon.zip\") {",
-        "    info 'Extracting program...'",
-        "    Expand-7zipArchive \"$dir\\ImageToIcon.zip\" \"$dir\"",
-        "    Remove-Item \"$dir\\ImageToIcon.zip\"",
-        "}"
-    ]
+    "installer": {
+        "script": [
+            "if (Test-Path \"$dir\\ImageToIcon.zip\") {",
+            "    info 'Extracting program...'",
+            "    Expand-7zipArchive \"$dir\\ImageToIcon.zip\" \"$dir\"",
+            "    Remove-Item \"$dir\\ImageToIcon.zip\"",
+            "}"
+        ]
+    }
 }
