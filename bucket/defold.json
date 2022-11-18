@@ -1,0 +1,27 @@
+{
+    "version": "1.4.0",
+    "description": "Defold is a fully-featured game development environment. There's nothing to set up or configure, not even when bundling. Simply download the editor and get creative!",
+    "homepage": "https://defold.com",
+    "license": "Apache 2.0",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://d.defold.com/editor2/channels/editor-alpha/Defold-x86_64-win32.zip"
+            ],
+            "hash": [
+                "sha1:9c44c4a9b6cbc9d0cb66b7027b7c984bf364a568"
+            ]
+        }
+    },
+    "bin":[
+        "defold.exe",
+        [
+            "defold.exe",
+            "defold"
+        ]
+    ],
+    "checkver":{
+        "url": "https://forum.defold.com/c/releasenotes",
+        "regex": "Defold ([\\d.]+) has been released"
+    }
+}
