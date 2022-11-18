@@ -13,13 +13,7 @@
             ]
         }
     },
-    "bin":[
-        "defold.exe",
-        [
-            "defold.exe",
-            "defold"
-        ]
-    ],
+    "bin": "Defold/Defold.exe",
     "checkver":{
         "url": "https://forum.defold.com/c/releasenotes",
         "regex": "Defold ([\\d.]+) has been released"
