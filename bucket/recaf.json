@@ -3,10 +3,21 @@
     "description": "Recaf is an open-source Java bytecode editor that simplifies the process of editing compiled Java applications.",
     "homepage": "https://www.coley.software/Recaf/",
     "license": "MIT",
+    "suggest": {
+        "JAVA": [
+            "openjdk"
+        ]
+    },
     "url": "https://github.com/Col-E/Recaf/releases/download/2.21.13/recaf-2.21.13-J8-jar-with-dependencies.jar",
     "hash": "sha1:991efc54627ed3bc9849f2f68a19cb40c4f1d538",
-    "bin": "recaf-2.21.13-J8-jar-with-dependencies.jar",
+    "pre_install":[
+        "@(",
+        "    '& java -jar \"recaf-2.21.13-J8-jar-with-dependencies.jar\"'",
+        ") | Add-Content -Path \"$dir\\recaf.ps1\""
+    ],
+    "bin": "recaf.ps1",
     "autoupdate": {
         "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version-J8-jar-with-dependencies.jar"
-    }
+    },
+    "env_add_path": "\\"
 }
