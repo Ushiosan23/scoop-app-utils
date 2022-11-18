@@ -1,0 +1,21 @@
+{
+    "version": "2020.1.15",
+    "description": "SVG to PNG converter, optimized for Android Apps ",
+    "homepage": "https://github.com/sterlp/svg2png",
+    "license": "Apache-2.0",
+    "url": "https://github.com/sterlp/svg2png/releases/download/v1.0.0/svg2png-1.0.0.jar",
+    "bin": "svg2png.bat",
+    "shortcuts": [
+        [
+            "svg2png.bat",
+            "svg2png"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/sterlp/svg2png/releases",
+        "regex": "v([\\d.]+)"
+    },
+    "pre_install": [
+        "Set-Content \"$dir\\svg2png.bat\" '@start java.exe -jar \"%~dp0svg2png.jar\" %*'"
+    ]
+}
