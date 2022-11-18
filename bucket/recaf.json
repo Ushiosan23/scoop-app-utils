@@ -13,7 +13,7 @@
     "pre_install":[
         "Set-Content \"$dir\\recaf.bat\" '@start java.exe -jar \"%~dp0recaf-2.21.13-J8-jar-with-dependencies.jar\"'"
     ],
-    "bin": "recaf.ps1",
+    "bin": "recaf.bat",
     "autoupdate": {
         "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version-J8-jar-with-dependencies.jar"
     }
