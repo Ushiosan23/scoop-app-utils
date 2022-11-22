@@ -4,10 +4,6 @@
     "homepage": "https://defold.com",
     "license": "Apache 2.0",
     "url": "https://d.defold.com/editor2/channels/editor-alpha/Defold-x86_64-win32.zip",
-    "hash": {
-        "url": "https://d.defold.com/stable/",
-        "find": "Sha1:\\s+(.*)"
-    },
     "bin": "Defold/Defold.exe",
     "shortcuts": [
         [
