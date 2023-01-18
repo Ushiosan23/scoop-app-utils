@@ -5,12 +5,6 @@
     "license": "Apache-2.0",
     "url": "https://github.com/sterlp/svg2png/releases/download/v1.0.0/svg2png-1.0.0.jar",
     "bin": "svg2png.bat",
-    "shortcuts": [
-        [
-            "svg2png.bat",
-            "svg2png"
-        ]
-    ],
     "checkver": {
         "url": "https://github.com/sterlp/svg2png/releases",
         "regex": "v([\\d.]+)"
