@@ -8,9 +8,15 @@
             "java/openjdk"
         ]
     },
+    "shortcuts": [
+        [
+            "recaf.bat",
+            "recaf"
+        ]
+    ],
     "url": "https://github.com/Col-E/Recaf/releases/download/2.21.13/recaf-2.21.13-J8-jar-with-dependencies.jar",
     "hash": "sha1:991efc54627ed3bc9849f2f68a19cb40c4f1d538",
-    "pre_install":[
+    "pre_install": [
         "Set-Content \"$dir\\recaf.bat\" '@start java.exe -jar \"%~dp0recaf-2.21.13-J8-jar-with-dependencies.jar\"'"
     ],
     "bin": "recaf.bat",
