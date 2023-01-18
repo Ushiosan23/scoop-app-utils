@@ -1,5 +1,5 @@
 {
-    "version": "2.21.13",
+    "version": "2.21.13-fixed",
     "description": "Recaf is an open-source Java bytecode editor that simplifies the process of editing compiled Java applications.",
     "homepage": "https://www.coley.software/Recaf/",
     "license": "MIT",

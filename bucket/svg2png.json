@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.0-fixed",
     "description": "SVG to PNG converter, optimized for Android Apps ",
     "homepage": "https://github.com/sterlp/svg2png",
     "license": "Apache-2.0",
