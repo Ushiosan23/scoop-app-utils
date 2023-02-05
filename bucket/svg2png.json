@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0-fixed-2",
+    "version": "1.0.0-3",
     "description": "SVG to PNG converter, optimized for Android Apps ",
     "homepage": "https://github.com/sterlp/svg2png",
     "license": "Apache-2.0",
@@ -10,6 +10,6 @@
         "regex": "v([\\d.]+)"
     },
     "pre_install": [
-        "Set-Content \"$dir\\svg2png.bat\" '@start java.exe -jar \"%~dp0svg2png-1.0.0.jar\" %*'"
+        "Set-Content \"$dir\\svg2png.bat\" '@start /WAIT /B java.exe -jar \"%~dp0svg2png-1.0.0.jar\" %*'"
     ]
 }
