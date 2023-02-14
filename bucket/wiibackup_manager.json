@@ -2,7 +2,7 @@
     "version": "78.0.0",
     "description": "Wii Backup Manager is a program to work with DVD backups, FAT32, NTFS and WBFS drives to convert between DVD, ISO, CISO and WBFS. It can also extract Wii games to the format used by SNEEK.",
     "homepage": "http://www.wiibackupmanager.co.uk",
-    "url": "http://www.wiibackupmanager.co.uk/index.php?file=WiiBackupManager_Build78",
+    "url": "http://www.wiibackupmanager.co.uk/files/WiiBackupManager_Build78.zip",
     "bin": "WiiBackupManager_Win64.exe",
     "shortcuts": [
         [
