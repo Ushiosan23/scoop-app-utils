@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Gdx-Setup is a utility to create projects with the LibGdx library and some other compatible utilities",
     "homepage": "https://libgdx.com",
     "license": "MIT",
@@ -16,7 +16,7 @@
     ],
     "url": " https://libgdx-nightlies.s3.amazonaws.com/libgdx-runnables/gdx-setup.jar",
     "pre_install": [
-        "Set-Content \"$dir\\gdx-setup.bat\" '@start java.exe -jar \"%~dp0gdx-setup.jar\"'"
+        "Set-Content \"$dir\\gdx-setup.bat\" '@start javaw.exe -jar \"%~dp0gdx-setup.jar\"'"
     ],
     "bin": "gdx-setup.bat"
 }
