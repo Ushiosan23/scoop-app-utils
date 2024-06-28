@@ -11,7 +11,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://www.wiibackupmanager.co.uk/downloads.html",
+        "url": "https://wiibackupmanager.co.uk/files/WiiBackupManager_Build78.zip",
         "regex": "Wii Backup Manager Build ([\\d.]+)"
     }
 }
